@@ -1,0 +1,18 @@
+-- Create the database schemas
+CREATE SCHEMA inventory;
+
+-- Create a table for the Two Trees category data
+CREATE TABLE inventory.categories (
+    category_id          INT NOT NULL PRIMARY KEY,
+    category_description VARCHAR(50),
+    product_line         VARCHAR(25)
+);
+
+-- Add data to the categories table
+INSERT INTO inventory.categories
+    (category_id, category_description, product_line)
+VALUES
+    (1, 'Olive Oils', 'Gourmet Chef'),
+    (2, 'Flavor Infused Oils', 'Gourmet Chef'),
+    (3, 'Bath and Beauty', 'Cosmetics')
+;

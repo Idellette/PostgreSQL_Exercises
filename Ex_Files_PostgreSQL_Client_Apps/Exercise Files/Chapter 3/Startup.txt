@@ -1,0 +1,19 @@
+Initialize configuration settings with a psqlrc startup file
+
+MacOS: 
+file located at ~/.psqlrc
+
+Windows:
+file located at %APPDATA%\PostgreSQL\psqlrc.conf
+
+
+#############################
+Sample psqlrc file syntax
+
+\set PROMPT1 '%M:%> u:%n db:%/ %l%x#%x '
+\set PROMPT2 '%M:%> u:%n db:%/ %l%x#%x '
+
+\echo '***********************************************'
+\echo '***         Welcome to PostgreSQL!          ***'
+\echo '*** Your custom psqlrc file has been loaded ***'
+\echo '***********************************************\n'

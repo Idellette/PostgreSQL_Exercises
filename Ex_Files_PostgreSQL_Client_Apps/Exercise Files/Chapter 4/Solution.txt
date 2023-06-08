@@ -1,0 +1,4 @@
+Challenge Solution: 
+You will need to change the output file path to match your system
+
+psql -h localhost -d two_trees -U postgres -o C:/users/wilbe/Desktop/Category3Products.html -c '\pset format html' -c '\pset border 0' -c "\pset title 'Category 3 Products'" -c 'SELECT * FROM inventory.products WHERE category_id = 3;'

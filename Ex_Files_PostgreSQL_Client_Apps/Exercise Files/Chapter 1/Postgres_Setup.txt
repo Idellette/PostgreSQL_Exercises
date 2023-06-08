@@ -1,0 +1,10 @@
+### Setup PostgreSQL Docker container
+### After installing and starting Docker, execute the following on the command line:
+
+docker run --name pg_database -p 5432:5432 -e POSTGRES_PASSWORD=Adam123456 -d postgres:latest
+
+### That creates a PostgreSQL Server with the following details:
+### IP: localhost
+### Port: 5432
+### Username: postgres
+### Password: Adam123456

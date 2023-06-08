@@ -1,0 +1,39 @@
+;
+; Archive created at 2021-04-25 16:08:55 PDT
+;     dbname: two_trees
+;     TOC Entries: 28
+;     Compression: -1
+;     Dump Version: 1.14-0
+;     Format: CUSTOM
+;     Integer: 4 bytes
+;     Offset: 8 bytes
+;     Dumped from database version: 13.1 (Debian 13.1-1.pgdg100+1)
+;     Dumped by pg_dump version: 13.2
+;
+;
+; Selected TOC Entries:
+;
+7; 2615 16538 SCHEMA - inventory postgres
+;4; 2615 16539 SCHEMA - sales postgres
+202; 1259 16540 TABLE inventory categories postgres
+203; 1259 16543 TABLE inventory products postgres
+;204; 1259 16546 TABLE sales customers postgres
+;205; 1259 16549 TABLE sales order_lines postgres
+;206; 1259 16552 SEQUENCE sales order_lines_line_id_seq postgres
+;207; 1259 16554 TABLE sales orders postgres
+;208; 1259 16557 SEQUENCE sales orders_order_id_seq postgres
+2966; 0 16540 TABLE DATA inventory categories postgres
+2967; 0 16543 TABLE DATA inventory products postgres
+;2968; 0 16546 TABLE DATA sales customers postgres
+;2969; 0 16549 TABLE DATA sales order_lines postgres
+;2971; 0 16554 TABLE DATA sales orders postgres
+;2979; 0 0 SEQUENCE SET sales order_lines_line_id_seq postgres
+;2980; 0 0 SEQUENCE SET sales orders_order_id_seq postgres
+2824; 2606 16560 CONSTRAINT inventory categories categories_pkey postgres
+2826; 2606 16562 CONSTRAINT inventory products products_pkey postgres
+;2828; 2606 16564 CONSTRAINT sales customers customers_pkey postgres
+;2830; 2606 16566 CONSTRAINT sales order_lines order_lines_pkey postgres
+;2832; 2606 16568 CONSTRAINT sales orders orders_pkey postgres
+2833; 2606 16569 FK CONSTRAINT inventory products fk_products_category_id postgres
+;2835; 2606 16574 FK CONSTRAINT sales orders fk_customers_customer_id postgres
+;2834; 2606 16579 FK CONSTRAINT sales order_lines fk_orders_order_id postgres

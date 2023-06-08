@@ -1,0 +1,17 @@
+\begin{center}
+Two Trees Customers
+\end{center}
+
+\begin{tabular}{l | l | l | l | l | l}
+\textit{customer\_id} & \textit{company} & \textit{address} & \textit{city} & \textit{state} & \textit{zip} \\
+\hline
+FV418 & Flavorville & 798 Ravinia Road & Des Moines & IA & 50320 \\
+WR421 & Wild Rose & 222 Dakota Lane & Kalamazoo & MI & 49001 \\
+BX305 & Bread Express & 3362 Ute Loop & Tiffin & OH & 44883 \\
+BV446 & Blue Vine & 40675 Raymond Curve & Columbus & GA & 31901 \\
+GR208 & Green Gardens & 394 Mesa Palms Avenue & Glen Campbell & PA & 15742 \\
+DF600 & Delish Food & 809 Weathersfield Ctr Park & Madisonville & OH & 45227 \\
+\end{tabular}
+
+\noindent (6 rows) \\
+
